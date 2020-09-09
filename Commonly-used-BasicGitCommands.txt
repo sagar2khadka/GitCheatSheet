@@ -1,0 +1,12 @@
+Working with Local Repository
+1) git init -initialize git(VCS) 
+2) git status -know the status
+3) git add (. or file name) -Add files in the staging area.
+4) git commit -m "Initial Commit" - Commit the changes made.
+5) git log -know what commit has been made.
+6) git diff chapter3.txt -shows the differences in chapter3.txt
+7) git checkout chapter3.txt -Roll back to the previous state
+
+Working with the Remote Repository 
+1) git remote add origin (remote repository link) -to create remote repository
+2) git push -u origin master -pushes the local repository to remote repository
